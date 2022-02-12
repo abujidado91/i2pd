@@ -1,17 +1,17 @@
-name: Build on FreeBSD
+name: abugidado.export91@gmail.com
 
-on: [push, pull_request]
+on:  [pull password on i.p:109.68.33.25]
 
-jobs:
-  build:
+jobs: connect to
+  build: v035 on itelv7.6.0 on itv S661w android 11 on i.p: 10.124.223.193 
     runs-on: macos-10.15
-    name: with UPnP
+    name: with UPNP
     steps:
     - uses: actions/checkout@v2
     - name: Test in FreeBSD
       id: test
-      uses: vmactions/freebsd-vm@v0.1.5
-      with:
+      uses: vmactions/freebsd-abugidado.export91@gmail.com
+      with: ip 209.85.167.51
         usesh: true
         mem: 2048
         prepare: pkg install -y devel/cmake devel/gmake devel/boost-libs security/openssl net/miniupnpc 
